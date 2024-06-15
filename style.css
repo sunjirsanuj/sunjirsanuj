@@ -13,7 +13,7 @@ header .header-logo{
     width: 100%;
     height: 30px;
     /* background-color: aqua; */
-    padding-top: 7px;
+    padding-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,7 +40,7 @@ header .header-logo{
 .header-menu ul li a{
     color: white;
     font-size: 0.65rem;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 .header-menu ul li a:hover{
@@ -59,6 +59,47 @@ main{
 }
 
 .title-text-headline{
-    padding: 70px 25px 20px 30px;
+    padding: 100px 25px 20px 30px;
     
+}
+
+.title-text-headline p{
+    margin-top: 30px;
+    font-size: 0.85rem;
+}
+
+.footer-hr{
+    display: flex;
+    justify-content: center;
+}
+
+footer .footer-hr hr{
+    width: 300px;
+    background-color: none;
+    border: 1px solid white;
+
+}
+
+footer{
+    background-color: black;
+}
+
+.footer-main{
+    padding: 50px 0px 50px 30px;
+    display: flex;
+}
+
+.footer-menu li {
+    font-size: 0.65rem;
+    list-style: none;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.footer-menu li a{
+    color: white;
+}
+
+.footer-menu li a:hover{
+    color: #e4cb86;
 }
