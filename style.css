@@ -85,8 +85,12 @@ footer{
 }
 
 .footer-main{
-    padding: 50px 0px 50px 30px;
+    height: 192px;
     display: flex;
+}
+
+.footer-menu ul{
+    padding: 50px 0 0 30px;
 }
 
 .footer-menu li {
@@ -101,5 +105,30 @@ footer{
 }
 
 .footer-menu li a:hover{
+    color: #e4cb86;
+}
+
+.show-case{
+    height: 100%;
+    width: 125px;
+    padding-left: 25px;
+}
+
+.sm-icons{
+    height: 125px;
+    width: 100px;
+    padding-left: 20px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sm{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.sm:hover{
     color: #e4cb86;
 }
